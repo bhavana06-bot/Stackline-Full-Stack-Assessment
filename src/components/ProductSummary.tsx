@@ -1,31 +1,33 @@
 import React, { useState } from "react";
-import {Product} from '../utills/types';
-import Tags from './Tags'
+import { Product } from '../utills/types';
+import Tags from './Tags';
 
 interface ProductSummaryProps {
-    productdata: Product;
-  }
-const ProductSummary: React.FC<ProductSummaryProps> = ({ productdata }) => {
-  
+  productdata: Product; 
+}
 
-    return (
-    <div>
-        <div className="product">
+const ProductSummary: React.FC<ProductSummaryProps> = ({ productdata }) => {
+  return (
+    <div >
+      {/* Product Image and Title Section */}
+      <div className="product">
         <img
-          src={productdata.image}
+          src={productdata.image} 
           className="product-image"
-          alt={productdata.subtitle}
+          alt={productdata.subtitle} 
         />
         <div className="title-text">
-          <p>{productdata.title}</p>
+          <p>{productdata.title}</p> 
           <p>{productdata.subtitle}</p>
         </div>
       </div>
-      <div className="product-tags">
-       <Tags tagData={productdata.tags} />
-      </div>
-      </div>
-    );
-  };
 
-  export default ProductSummary;
+      {/* Product Tags Section */}
+      <div className="product-tags">
+        <Tags tagData={productdata.tags} /> 
+      </div>
+    </div>
+  );
+};
+
+export default ProductSummary;

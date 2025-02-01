@@ -2,8 +2,6 @@
 
 import React, { useState } from "react";
 
-
-
 const BannerLogoContainer: React.FC= () => {
   
     return (
