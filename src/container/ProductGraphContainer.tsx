@@ -5,12 +5,11 @@ import { createProduct } from '../utills/types'
 import { aggregateSalesByMonth } from '../utills/graph'
 import ProductGraph from '../components/ProductGraph'
 
-interface ProductGraphContainer {
+interface ProductGraphContainerProps {
   data: any[];
 }
 
-
-const ProductGraphContainer: React.FC<ProductGraphContainer> = ({ data }) => {
+const ProductGraphContainer: React.FC<ProductGraphContainerProps> = ({ data }) => {
 
   const product = createProduct(data[0]);
   const sales = product.sales || [];

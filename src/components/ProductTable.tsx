@@ -13,6 +13,9 @@ const ProductTable: React.FC<ProductTableProps> = ({ sales }) => {
       name: 'Week Ending',    
       selector: (row: WeeklySales) => new Date(row.weekEnding).toLocaleDateString(),
       sortable: true, // Allow sorting
+      sortFunction: (a: WeeklySales, b: WeeklySales) =>
+      new Date(a.weekEnding).getTime() - new Date(b.weekEnding).getTime(), // Custom sorting function
+
     },
     {
       name: 'Retail Sales',
