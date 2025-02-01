@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Stackline-Full-Stack-Assessment/static/css/main.2f117c71.chunk.css",
+    "main.js": "/Stackline-Full-Stack-Assessment/static/js/main.fa3603ab.chunk.js",
+    "main.js.map": "/Stackline-Full-Stack-Assessment/static/js/main.fa3603ab.chunk.js.map",
+    "runtime-main.js": "/Stackline-Full-Stack-Assessment/static/js/runtime-main.cd126f1b.js",
+    "runtime-main.js.map": "/Stackline-Full-Stack-Assessment/static/js/runtime-main.cd126f1b.js.map",
+    "static/js/2.8358ca38.chunk.js": "/Stackline-Full-Stack-Assessment/static/js/2.8358ca38.chunk.js",
+    "static/js/2.8358ca38.chunk.js.map": "/Stackline-Full-Stack-Assessment/static/js/2.8358ca38.chunk.js.map",
+    "index.html": "/Stackline-Full-Stack-Assessment/index.html",
+    "static/css/main.2f117c71.chunk.css.map": "/Stackline-Full-Stack-Assessment/static/css/main.2f117c71.chunk.css.map",
+    "static/js/2.8358ca38.chunk.js.LICENSE.txt": "/Stackline-Full-Stack-Assessment/static/js/2.8358ca38.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd126f1b.js",
+    "static/js/2.8358ca38.chunk.js",
+    "static/css/main.2f117c71.chunk.css",
+    "static/js/main.fa3603ab.chunk.js"
+  ]
+}
