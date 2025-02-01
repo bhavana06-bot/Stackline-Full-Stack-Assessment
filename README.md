@@ -1,7 +1,5 @@
 # Stackline Assessment Challenge
-Thank you for taking our web developer assessment. To complete the assessment, you will take what is provided and create a simple product web page that uses React to produce the view and Redux to manage the state.  It should take approximately 2 hours to complete a typical solution, but you may take up to 24 hours.  You may use any public npm packages.
 
- Resources to get started (attached via email):
 A JSON file to be used as the data source to populate the web page
 A wire mockup of what your final web page should look like.  You only need to implement the page with the graph and/or table.
 SVG of the Stackline logo
